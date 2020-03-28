@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-03-28T10:25:36" hostname="admin1-ThinkCentre-M72e" time="0.018">
+  <properties/>
+  <testcase name="StringNumbersSeperatedByNewlineAndCommas" classname="CalculatorTest" time="0.002"/>
+  <testcase name="DifferentDelimeterOfAnyLength" classname="CalculatorTest" time="0.0"/>
+  <testcase name="StringHandleDifferentDelimeter" classname="CalculatorTest" time="0.0"/>
+  <testcase name="InvalidNumberFormat" classname="CalculatorTest" time="0.006"/>
+  <testcase name="StringHandleDifferentDelimeters4" classname="CalculatorTest" time="0.0"/>
+  <testcase name="StringWithNegNumbers" classname="CalculatorTest" time="0.001"/>
+  <testcase name="StringContainingOneNumber" classname="CalculatorTest" time="0.0"/>
+  <testcase name="StringContainingMultipleNumbers" classname="CalculatorTest" time="0.0"/>
+  <testcase name="StringContainingTwoNumbers" classname="CalculatorTest" time="0.001"/>
+  <testcase name="NumbersAbove1000AreIgnored" classname="CalculatorTest" time="0.001"/>
+  <system-out><![CDATA[java.lang.Exception: Invalid Format
+java.lang.Exception: Negatives not allowed: -1,-2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
